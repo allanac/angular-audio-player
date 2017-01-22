@@ -10,7 +10,7 @@
 </head>
 <body>
     <div ng-controller="audioplayer">
-        <select ng-model="list_model"
+        <select ng-model="list_model" ng-init="list_model = list[0]"
         ng-options="music.name group by music.group for music in list">
             <option value=""> -- 請選擇 -- </option>
         </select>
