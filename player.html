@@ -14,6 +14,7 @@
         ng-options="music.name group by music.group for music in list">
             <option value=""> -- 請選擇 -- </option>
         </select>
+        <button ng-click="shuf_song()">Shuffle song</button>
         <audio autoplay controls="controls" src="{{prefix}}{{list_model.src}}">
             Your browser does not support the <a href="http://caniuse.com/#search=audio"><code>audio</code></a> element.
         </audio>
