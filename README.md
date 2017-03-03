@@ -20,6 +20,4 @@ Then, label audio name in `name` name's value, audio file in `src` name's value.
 `group` is not essential, it's used for grouping files.
 
 ## To do list
-* Audio auto start when page loaded.
 * End song hehavior: when song ended, porgram will do what user want, like HTML5-audio-player repo.
-* Random song hehavior: I can do random songs just press "random" buttom or something else.
